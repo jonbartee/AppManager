@@ -1,0 +1,429 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240102104037
+Username: GAC\u341506
+RunAs User: GAC\u341506
+Configuration Name: 
+Machine: LD771LR3 (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\u341506\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.8.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\u341506\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.8.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\u341506\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1703083293-dd88405d-eb43-4712-8860-d023124fdbcd1703083288398\EditorServices.log' -SessionDetailsPath 'c:\Users\u341506\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-21612-747047.json' -FeatureFlags @() 
+Process ID: 42604
+PSVersion: 5.1.19041.3693
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.3693
+BuildVersion: 10.0.19041.3693
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\BackupTest.txt
+================================
+APP MAN BACKUP STATUS
+================================
+Primary Servers
+INFAPMPW002
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----          1/2/2024  10:33 AM                logs                                                                           INFAPMPW002
+d-----          5/5/2022   1:11 PM                logs_05_May_2022_13_11_55                                                      INFAPMPW002
+d-----         3/22/2022  12:00 PM                oldlogs                                                                        INFAPMPW002
+-a----        12/19/2023   6:48 AM          26047 MigrationLogs.txt                                                              INFAPMPW002
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15\working
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----        12/19/2023   6:42 AM                logs                                                                           INFAPMPW002
+d-----          7/6/2022   3:09 PM                temp_meam_logs_win_mssql_admin_15511_Jul_6_2022_15_9_34.zip                    INFAPMPW002
+-a----        11/18/2023  10:28 PM          66595 hs_err_pid3192.log                                                             INFAPMPW002
+-a----        11/18/2023  10:28 PM     3705333826 hs_err_pid3192.mdmp                                                            INFAPMPW002
+-a----        11/18/2023   9:53 PM          66948 hs_err_pid5244.log                                                             INFAPMPW002
+-a----        11/18/2023   9:53 PM     3414884874 hs_err_pid5244.mdmp                                                            INFAPMPW002
+-a----        11/18/2023   9:56 PM          64031 hs_err_pid5840.log                                                             INFAPMPW002
+-a----        11/18/2023   9:56 PM     3720905504 hs_err_pid5840.mdmp                                                            INFAPMPW002
+-a----        12/19/2023   6:45 AM          65762 hs_err_pid6664.log                                                             INFAPMPW002
+-a----        12/19/2023   6:45 AM     3364382592 hs_err_pid6664.mdmp                                                            INFAPMPW002
+INFAPMPRPW002
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----          1/2/2024  10:36 AM                logs                                                                           INFAPMPRPW002
+d-----          5/5/2022   1:49 PM                logs_05_May_2022_13_49_45                                                      INFAPMPRPW002
+d-----         3/22/2022   1:27 PM                oldlogs                                                                        INFAPMPRPW002
+-a----         3/11/2022   9:58 AM              0 MigrationLogs.txt                                                              INFAPMPRPW002
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15\working
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----        12/16/2023   9:45 PM                logs                                                                           INFAPMPRPW002
+-a----        11/18/2023   9:53 PM          68379 hs_err_pid5420.log                                                             INFAPMPRPW002
+-a----        11/18/2023   9:53 PM     1425330962 hs_err_pid5420.mdmp                                                            INFAPMPRPW002
+-a----         3/25/2023  10:17 PM          58934 hs_err_pid6060.log                                                             INFAPMPRPW002
+-a----         3/25/2023  10:17 PM      929854818 hs_err_pid6060.mdmp                                                            INFAPMPRPW002
+INFAPMPRPW004
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----          1/2/2024  10:38 AM                logs                                                                           INFAPMPRPW004
+d-----          6/2/2022   2:04 PM                logs_02_Jun_2022_14_04_10                                                      INFAPMPRPW004
+d-----         3/22/2022   1:37 PM                oldlogs                                                                        INFAPMPRPW004
+-a----         3/11/2022  10:45 AM              0 MigrationLogs.txt                                                              INFAPMPRPW004
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15\working
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----        12/16/2023   9:45 PM                logs                                                                           INFAPMPRPW004
+d-----        12/19/2023  12:20 PM                temp_meam_logs_win_mssql_managed_2_15511_Dec_19_2023_12_17_53.zip              INFAPMPRPW004
+INFAPMPRPW006
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----          1/2/2024  10:34 AM                logs                                                                           INFAPMPRPW006
+d-----          6/3/2022  10:28 AM                logs_03_Jun_2022_10_28_38                                                      INFAPMPRPW006
+d-----         3/22/2022   1:53 PM                oldlogs                                                                        INFAPMPRPW006
+-a----         3/11/2022  10:47 AM              0 MigrationLogs.txt                                                              INFAPMPRPW006
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15\working
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----        12/18/2023   9:46 AM                logs                                                                           INFAPMPRPW006
+d-----         2/13/2023   2:46 PM                temp_meam_logs_win_mssql_managed_3_15511_Feb_13_2023_14_40_26.zip              INFAPMPRPW006
+-a----        11/20/2023   5:48 PM          66342 hs_err_pid11552.log                                                            INFAPMPRPW006
+-a----        11/20/2023   5:48 PM     1352883364 hs_err_pid11552.mdmp                                                           INFAPMPRPW006
+-a----        12/18/2023   9:56 AM          70594 hs_err_pid4608.log                                                             INFAPMPRPW006
+-a----        12/18/2023   9:56 AM     1191916644 hs_err_pid4608.mdmp                                                            INFAPMPRPW006
+-a----        12/18/2023   9:46 AM          71378 hs_err_pid5660.log                                                             INFAPMPRPW006
+-a----        12/18/2023   9:46 AM     1178650048 hs_err_pid5660.mdmp                                                            INFAPMPRPW006
+-a----        11/20/2023   5:37 PM          70467 hs_err_pid9064.log                                                             INFAPMPRPW006
+-a----        11/20/2023   5:37 PM     1510350944 hs_err_pid9064.mdmp                                                            INFAPMPRPW006
+INFAPMPRPW008
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----          1/2/2024  10:34 AM                logs                                                                           INFAPMPRPW008
+d-----         3/22/2022   1:37 PM                oldlogs                                                                        INFAPMPRPW008
+-a----         3/11/2022  10:54 AM              0 MigrationLogs.txt                                                              INFAPMPRPW008
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15\working
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----          1/2/2024   8:52 AM                logs                                                                           INFAPMPRPW008
+-a----        11/19/2023   3:33 AM          65113 hs_err_pid3672.log                                                             INFAPMPRPW008
+-a----        11/19/2023   3:33 AM     1457012694 hs_err_pid3672.mdmp                                                            INFAPMPRPW008
+-a----        12/16/2023  10:10 PM          76415 hs_err_pid440.log                                                              INFAPMPRPW008
+-a----        12/16/2023  10:10 PM     1774529558 hs_err_pid440.mdmp                                                             INFAPMPRPW008
+-a----        11/19/2023   3:04 AM          69618 hs_err_pid5960.log                                                             INFAPMPRPW008
+-a----        11/19/2023   3:04 AM     1914027268 hs_err_pid5960.mdmp                                                            INFAPMPRPW008
+-a----        11/19/2023   3:30 AM          68900 hs_err_pid9608.log                                                             INFAPMPRPW008
+-a----        11/19/2023   3:30 AM     2196679282 hs_err_pid9608.mdmp                                                            INFAPMPRPW008
+INFAPMPRPW010
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----          1/2/2024  10:34 AM                logs                                                                           INFAPMPRPW010
+d-----         3/22/2022   1:40 PM                oldlogs                                                                        INFAPMPRPW010
+-a----         3/11/2022  11:03 AM              0 MigrationLogs.txt                                                              INFAPMPRPW010
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15\working
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----        12/18/2023  10:05 AM                logs                                                                           INFAPMPRPW010
+-a----          1/9/2023  10:18 PM          59249 hs_err_pid10052.log                                                            INFAPMPRPW010
+-a----          1/9/2023  10:18 PM     1060271117 hs_err_pid10052.mdmp                                                           INFAPMPRPW010
+-a----        12/18/2023  10:13 AM          66056 hs_err_pid10856.log                                                            INFAPMPRPW010
+-a----        12/18/2023  10:13 AM     1390388626 hs_err_pid10856.mdmp                                                           INFAPMPRPW010
+-a----        12/18/2023  10:19 AM          67147 hs_err_pid11056.log                                                            INFAPMPRPW010
+-a----        12/18/2023  10:19 AM     1572947536 hs_err_pid11056.mdmp                                                           INFAPMPRPW010
+-a----          1/9/2023   8:04 PM          59053 hs_err_pid11528.log                                                            INFAPMPRPW010
+-a----          1/9/2023   8:04 PM     1135786309 hs_err_pid11528.mdmp                                                           INFAPMPRPW010
+-a----          1/9/2023   9:45 PM          59110 hs_err_pid12384.log                                                            INFAPMPRPW010
+-a----          1/9/2023   9:45 PM     1070098433 hs_err_pid12384.mdmp                                                           INFAPMPRPW010
+-a----          1/9/2023   8:37 PM          59092 hs_err_pid12924.log                                                            INFAPMPRPW010
+-a----          1/9/2023   8:37 PM     1054550463 hs_err_pid12924.mdmp                                                           INFAPMPRPW010
+-a----          1/9/2023   4:40 PM          59107 hs_err_pid14176.log                                                            INFAPMPRPW010
+-a----          1/9/2023   4:40 PM      879156395 hs_err_pid14176.mdmp                                                           INFAPMPRPW010
+-a----          1/9/2023   5:49 PM          59140 hs_err_pid15448.log                                                            INFAPMPRPW010
+-a----          1/9/2023   5:49 PM     1186192241 hs_err_pid15448.mdmp                                                           INFAPMPRPW010
+-a----          1/9/2023   6:56 PM          59123 hs_err_pid15904.log                                                            INFAPMPRPW010
+-a----          1/9/2023   6:56 PM     1061444049 hs_err_pid15904.mdmp                                                           INFAPMPRPW010
+-a----          1/9/2023   9:11 PM          59145 hs_err_pid16644.log                                                            INFAPMPRPW010
+-a----          1/9/2023   9:11 PM     1494169765 hs_err_pid16644.mdmp                                                           INFAPMPRPW010
+-a----          1/9/2023   7:30 PM          59193 hs_err_pid21252.log                                                            INFAPMPRPW010
+-a----          1/9/2023   7:30 PM      996776245 hs_err_pid21252.mdmp                                                           INFAPMPRPW010
+-a----          1/9/2023   6:22 PM          58917 hs_err_pid3104.log                                                             INFAPMPRPW010
+-a----          1/9/2023   6:22 PM     1004710417 hs_err_pid3104.mdmp                                                            INFAPMPRPW010
+-a----        12/18/2023  10:16 AM          70315 hs_err_pid3944.log                                                             INFAPMPRPW010
+-a----        12/18/2023  10:16 AM     1345310986 hs_err_pid3944.mdmp                                                            INFAPMPRPW010
+-a----        12/16/2023  10:25 PM          76039 hs_err_pid5456.log                                                             INFAPMPRPW010
+-a----        12/16/2023  10:25 PM     2191662422 hs_err_pid5456.mdmp                                                            INFAPMPRPW010
+-a----        11/18/2023   9:50 PM          71061 hs_err_pid5872.log                                                             INFAPMPRPW010
+-a----        11/18/2023   9:50 PM     1904545264 hs_err_pid5872.mdmp                                                            INFAPMPRPW010
+-a----          1/7/2023   7:38 AM          76730 hs_err_pid5904.log                                                             INFAPMPRPW010
+-a----          1/7/2023   7:38 AM     2209868254 hs_err_pid5904.mdmp                                                            INFAPMPRPW010
+-a----         3/25/2023  10:11 PM          59605 hs_err_pid6028.log                                                             INFAPMPRPW010
+-a----         3/25/2023  10:11 PM      801796134 hs_err_pid6028.mdmp                                                            INFAPMPRPW010
+-a----          1/9/2023   5:15 PM          58952 hs_err_pid6292.log                                                             INFAPMPRPW010
+-a----          1/9/2023   5:15 PM     1032951867 hs_err_pid6292.mdmp                                                            INFAPMPRPW010
+-a----        12/18/2023  12:32 PM         104582 hs_err_pid6368.log                                                             INFAPMPRPW010
+-a----        12/18/2023  12:32 PM     1987451072 hs_err_pid6368.mdmp                                                            INFAPMPRPW010
+-a----        12/17/2023  12:50 PM          67949 hs_err_pid7580.log                                                             INFAPMPRPW010
+-a----        12/17/2023  12:50 PM     1609076352 hs_err_pid7580.mdmp                                                            INFAPMPRPW010
+-a----          1/9/2023   4:09 PM          59365 hs_err_pid8408.log                                                             INFAPMPRPW010
+-a----          1/9/2023   4:09 PM     1164883121 hs_err_pid8408.mdmp                                                            INFAPMPRPW010
+-a----        12/18/2023  10:26 AM          64503 hs_err_pid8544.log                                                             INFAPMPRPW010
+-a----        12/18/2023  10:26 AM     1315587788 hs_err_pid8544.mdmp                                                            INFAPMPRPW010
+-a----          1/9/2023  10:52 PM          58917 hs_err_pid9888.log                                                             INFAPMPRPW010
+-a----          1/9/2023  10:52 PM     1060162297 hs_err_pid9888.mdmp                                                            INFAPMPRPW010
+-a----        12/16/2023  10:27 PM          65353 hs_err_pid996.log                                                              INFAPMPRPW010
+-a----        12/16/2023  10:27 PM     1687760322 hs_err_pid996.mdmp                                                             INFAPMPRPW010
+INFAPMPRPW012
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----          1/2/2024  10:40 AM                logs                                                                           INFAPMPRPW012
+d-----         3/22/2022   2:03 PM                oldlogs                                                                        INFAPMPRPW012
+-a----         3/11/2022  11:17 AM              0 MigrationLogs.txt                                                              INFAPMPRPW012
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15\working
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----        12/16/2023   9:45 PM                logs                                                                           INFAPMPRPW012
+-a----          1/9/2023   6:31 PM          58319 hs_err_pid10108.log                                                            INFAPMPRPW012
+-a----          1/9/2023   6:31 PM      964851309 hs_err_pid10108.mdmp                                                           INFAPMPRPW012
+-a----          1/9/2023   5:41 PM          58372 hs_err_pid13016.log                                                            INFAPMPRPW012
+-a----          1/9/2023   5:41 PM     1022450841 hs_err_pid13016.mdmp                                                           INFAPMPRPW012
+-a----          1/9/2023   4:15 PM          58424 hs_err_pid23856.log                                                            INFAPMPRPW012
+-a----          1/9/2023   4:15 PM      968375155 hs_err_pid23856.mdmp                                                           INFAPMPRPW012
+-a----          1/9/2023   7:22 PM          58293 hs_err_pid25412.log                                                            INFAPMPRPW012
+-a----          1/9/2023   7:22 PM     1023038449 hs_err_pid25412.mdmp                                                           INFAPMPRPW012
+-a----          1/9/2023   4:57 PM          58657 hs_err_pid8384.log                                                             INFAPMPRPW012
+-a----          1/9/2023   4:57 PM      895229633 hs_err_pid8384.mdmp                                                            INFAPMPRPW012
+INFAPMPRPW014
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----          1/2/2024   6:00 AM                logs                                                                           INFAPMPRPW014
+-a----         3/11/2022  11:25 AM              0 MigrationLogs.txt                                                              INFAPMPRPW014
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15\working
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----        12/18/2023   6:18 AM                logs                                                                           INFAPMPRPW014
+d-----         6/22/2023   1:18 PM                temp_meam_logs_win_mssql_managed_7_15511_Jun_22_2023_13_12_6.zip               INFAPMPRPW014
+d-----        11/16/2023   4:25 PM                temp_meam_logs_win_mssql_managed_7_15511_Nov_16_2023_16_25_13.zip              INFAPMPRPW014
+d-----        10/26/2023   8:35 AM                temp_meam_logs_win_mssql_managed_7_15511_Oct_26_2023_8_34_41.zip               INFAPMPRPW014
+d-----        10/26/2023   8:40 AM                temp_meam_logs_win_mssql_managed_7_15511_Oct_26_2023_8_40_7.zip                INFAPMPRPW014
+d-----        10/26/2023   8:41 AM                temp_meam_logs_win_mssql_managed_7_15511_Oct_26_2023_8_41_18.zip               INFAPMPRPW014
+-a----        12/16/2023   9:54 PM          68626 hs_err_pid5848.log                                                             INFAPMPRPW014
+-a----        12/16/2023   9:54 PM     6118141320 hs_err_pid5848.mdmp                                                            INFAPMPRPW014
+-a----        11/18/2023  11:58 PM          71791 hs_err_pid5928.log                                                             INFAPMPRPW014
+-a----        11/18/2023  11:58 PM     1090414182 hs_err_pid5928.mdmp                                                            INFAPMPRPW014
+INFAPMPRPW016
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----          1/2/2024  10:39 AM                logs                                                                           INFAPMPRPW016
+d-----          6/6/2022   9:00 AM                logs_06_Jun_2022_09_00_20                                                      INFAPMPRPW016
+d-----         3/22/2022   1:35 PM                oldlogs                                                                        INFAPMPRPW016
+-a----         3/11/2022  11:34 AM              0 MigrationLogs.txt                                                              INFAPMPRPW016
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15\working
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----        12/18/2023  10:09 AM                logs                                                                           INFAPMPRPW016
+-a----        12/18/2023  10:21 AM          63799 hs_err_pid12196.log                                                            INFAPMPRPW016
+-a----        12/18/2023  10:21 AM     1291695929 hs_err_pid12196.mdmp                                                           INFAPMPRPW016
+-a----         2/25/2023  10:08 PM          55986 hs_err_pid5936.log                                                             INFAPMPRPW016
+-a----         2/25/2023  10:08 PM      894794380 hs_err_pid5936.mdmp                                                            INFAPMPRPW016
+-a----        12/18/2023  10:18 AM          73931 hs_err_pid5984.log                                                             INFAPMPRPW016
+-a----        12/18/2023  10:18 AM     1704095655 hs_err_pid5984.mdmp                                                            INFAPMPRPW016
+-a----         3/25/2023  10:14 PM          56121 hs_err_pid6124.log                                                             INFAPMPRPW016
+-a----         3/25/2023  10:14 PM      902878056 hs_err_pid6124.mdmp                                                            INFAPMPRPW016
+INFAPMPRPW018
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----          1/2/2024  10:39 AM                logs                                                                           INFAPMPRPW018
+d-----         3/22/2022   1:46 PM                oldlogs                                                                        INFAPMPRPW018
+-a----         3/11/2022  11:46 AM              0 MigrationLogs.txt                                                              INFAPMPRPW018
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15\working
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----        12/20/2023   6:17 PM                logs                                                                           INFAPMPRPW018
+-a----        12/17/2023   1:29 PM          69811 hs_err_pid10448.log                                                            INFAPMPRPW018
+-a----        12/17/2023   1:29 PM     1954533326 hs_err_pid10448.mdmp                                                           INFAPMPRPW018
+-a----        12/20/2023   6:17 PM          73466 hs_err_pid11144.log                                                            INFAPMPRPW018
+-a----        12/20/2023   6:17 PM     1543885934 hs_err_pid11144.mdmp                                                           INFAPMPRPW018
+-a----        11/18/2023   9:59 PM          73014 hs_err_pid2320.log                                                             INFAPMPRPW018
+-a----        11/18/2023   9:59 PM     1723482336 hs_err_pid2320.mdmp                                                            INFAPMPRPW018
+-a----        11/19/2023  12:11 AM          76483 hs_err_pid3360.log                                                             INFAPMPRPW018
+-a----        11/19/2023  12:11 AM     1404136518 hs_err_pid3360.mdmp                                                            INFAPMPRPW018
+-a----        11/18/2023  10:05 PM          69302 hs_err_pid5416.log                                                             INFAPMPRPW018
+-a----        11/18/2023  10:05 PM     1895566434 hs_err_pid5416.mdmp                                                            INFAPMPRPW018
+-a----        12/16/2023   9:48 PM          64569 hs_err_pid5496.log                                                             INFAPMPRPW018
+-a----        12/16/2023   9:48 PM     1510347926 hs_err_pid5496.mdmp                                                            INFAPMPRPW018
+-a----        12/20/2023   6:19 PM          64936 hs_err_pid5720.log                                                             INFAPMPRPW018
+-a----        12/20/2023   6:19 PM     1347542076 hs_err_pid5720.mdmp                                                            INFAPMPRPW018
+-a----        11/18/2023   9:55 PM          69551 hs_err_pid5988.log                                                             INFAPMPRPW018
+-a----        11/18/2023   9:55 PM     2186096784 hs_err_pid5988.mdmp                                                            INFAPMPRPW018
+-a----         3/25/2023  10:11 PM          58980 hs_err_pid6104.log                                                             INFAPMPRPW018
+-a----         3/25/2023  10:11 PM      805425976 hs_err_pid6104.mdmp                                                            INFAPMPRPW018
+-a----        12/17/2023   1:19 PM          77271 hs_err_pid6160.log                                                             INFAPMPRPW018
+-a----        12/17/2023   1:19 PM     2584925884 hs_err_pid6160.mdmp                                                            INFAPMPRPW018
+-a----        12/17/2023  12:38 PM          65062 hs_err_pid8456.log                                                             INFAPMPRPW018
+-a----        12/17/2023  12:38 PM     1336985668 hs_err_pid8456.mdmp                                                            INFAPMPRPW018
+-a----        11/18/2023  11:58 PM          71082 hs_err_pid9120.log                                                             INFAPMPRPW018
+-a----        11/18/2023  11:58 PM     1273843384 hs_err_pid9120.mdmp                                                            INFAPMPRPW018
+-a----        12/20/2023   6:29 PM          69952 hs_err_pid9892.log                                                             INFAPMPRPW018
+-a----        12/20/2023   6:29 PM     1871902926 hs_err_pid9892.mdmp                                                            INFAPMPRPW018
+INFAPMPRPW020
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----          1/2/2024  10:39 AM                logs                                                                           INFAPMPRPW020
+d-----         3/22/2022   1:46 PM                oldlogs                                                                        INFAPMPRPW020
+-a----         3/11/2022  11:51 AM              0 MigrationLogs.txt                                                              INFAPMPRPW020
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15\working
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----        12/20/2023   6:16 PM                logs                                                                           INFAPMPRPW020
+-a----        11/20/2023   5:03 PM          73572 hs_err_pid5168.log                                                             INFAPMPRPW020
+-a----        11/20/2023   5:03 PM     1332105100 hs_err_pid5168.mdmp                                                            INFAPMPRPW020
+-a----        12/20/2023   6:16 PM          79463 hs_err_pid5324.log                                                             INFAPMPRPW020
+-a----        12/20/2023   6:16 PM     1419535272 hs_err_pid5324.mdmp                                                            INFAPMPRPW020
+-a----        11/20/2023   5:16 PM          84923 hs_err_pid6000.log                                                             INFAPMPRPW020
+-a----        11/20/2023   5:16 PM     2529363988 hs_err_pid6000.mdmp                                                            INFAPMPRPW020
+-a----         3/25/2023  10:12 PM          58840 hs_err_pid6036.log                                                             INFAPMPRPW020
+-a----         3/25/2023  10:12 PM      816969206 hs_err_pid6036.mdmp                                                            INFAPMPRPW020
+-a----        11/20/2023   5:19 PM          65259 hs_err_pid9968.log                                                             INFAPMPRPW020
+-a----        11/20/2023   5:19 PM     1475282878 hs_err_pid9968.mdmp                                                            INFAPMPRPW020
+INFAPMPRPW022
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----          1/2/2024  10:40 AM                logs                                                                           INFAPMPRPW022
+-a----          8/3/2023   1:27 PM              0 MigrationLogs.txt                                                              INFAPMPRPW022
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15\working
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----        12/17/2023   1:17 PM                logs                                                                           INFAPMPRPW022
+-a----        12/17/2023   1:17 PM          81405 hs_err_pid4084.log                                                             INFAPMPRPW022
+-a----        12/17/2023   1:17 PM     3130928185 hs_err_pid4084.mdmp                                                            INFAPMPRPW022
+-a----        11/18/2023   9:55 PM          78408 hs_err_pid5896.log                                                             INFAPMPRPW022
+-a----        11/18/2023   9:55 PM     2345607141 hs_err_pid5896.mdmp                                                            INFAPMPRPW022
+-a----        12/16/2023   9:48 PM          74927 hs_err_pid6136.log                                                             INFAPMPRPW022
+-a----        12/16/2023   9:48 PM     1441831217 hs_err_pid6136.mdmp                                                            INFAPMPRPW022
+INFAPMPRPW024
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----          1/2/2024  10:40 AM                logs                                                                           INFAPMPRPW024
+-a----          8/3/2023   2:05 PM              0 MigrationLogs.txt                                                              INFAPMPRPW024
+
+
+    Directory: E:\Program Files\ManageEngine\AppManager15\working
+
+
+Mode                 LastWriteTime         Length Name                                                                           PSComputerName
+----                 -------------         ------ ----                                                                           --------------
+d-----        12/18/2023   3:55 PM                logs                                                                           INFAPMPRPW024
+**********************
+Windows PowerShell transcript end
+End time: 20240102104332
+**********************
